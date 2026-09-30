@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f8fc;
+            color: #333;
+        }
+
+        header {
+            background: #1976d2;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to right, #2196f3, #64b5f6);
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: white;
+            color: #1976d2;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 50px 10%;
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1976d2;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #1976d2;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background: #1565c0;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>☁ Cloud Computing</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#layanan">Layanan</a>
+            <a href="#manfaat">Manfaat</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Selamat Datang di Cloud Computing</h2>
+
+        <p>
+            Teknologi yang memungkinkan penyimpanan dan penggunaan
+            sumber daya komputer melalui internet.
+        </p>
+
+        <a href="#layanan" class="button">Pelajari Lebih Lanjut</a>
+    </section>
+
+    <section class="container" id="layanan">
+        <h2>Jenis Layanan Cloud</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>IaaS</h3>
+                <p>
+                    Infrastructure as a Service menyediakan
+                    infrastruktur seperti server, storage, dan jaringan
+                    melalui internet.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>PaaS</h3>
+                <p>
+                    Platform as a Service menyediakan platform untuk
+                    mengembangkan dan menjalankan aplikasi.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>SaaS</h3>
+                <p>
+                    Software as a Service memungkinkan pengguna
+                    menggunakan aplikasi tanpa harus memasangnya
+                    secara langsung di perangkat.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container" id="manfaat">
+        <h2>Manfaat Cloud Computing</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>☁ Fleksibel</h3>
+                <p>
+                    Data dan aplikasi dapat diakses dari berbagai
+                    perangkat selama terhubung dengan internet.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🔒 Keamanan</h3>
+                <p>
+                    Cloud menyediakan berbagai fitur keamanan untuk
+                    membantu melindungi data pengguna.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💰 Efisien</h3>
+                <p>
+                    Penggunaan cloud dapat mengurangi kebutuhan
+                    perangkat keras dan biaya pemeliharaan.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Cloud Computing Website</p>
+    </footer>
+
+</body>
+</html>
